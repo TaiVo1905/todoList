@@ -1,0 +1,41 @@
+.theme-dark .header,
+.theme-dark,
+.theme-dark #root,
+.theme-dark .footer {
+  background-color: #333;
+  color: #f1faee;
+  transition: 0.3s;
+}
+
+.theme-dark ::placeholder {
+  color: #f1faee;
+}
+
+.theme-dark .input-todo,
+.theme-dark .theme,
+.theme-dark .add,
+.theme-dark .input-edit,
+.theme-dark .save,
+.theme-dark .cancel,
+.theme-dark .toggle,
+.theme-dark .action,
+.theme-dark .progress-bar {
+  border-color: #f1faee;
+  color: #f1faee ;
+}
+
+.theme-dark .todo-list > li {
+  border-color: #f1faee;
+  color: #f1faee;
+}
+
+.theme-dark .toggle:checked {
+  background-color: #f1faee;
+}
+
+.theme-dark .toggle:checked::after {
+  border-left-color: #333;
+  border-bottom: 2px solid #333;
+  border-right: 2px solid #333;
+  border-top-color: #333;
+}
